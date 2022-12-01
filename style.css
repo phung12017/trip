@@ -35,6 +35,7 @@ img {
 body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  line-height: 1.6;
 }
 
 ul li {
@@ -190,6 +191,20 @@ a {
   justify-content: center;
   text-align: center;
 }
+
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+.btn-small{
+  font-size: var(--fs-9);
+  padding: 1rem 2.4rem;
+}
+.btn-primary svg {
+  fill: white;
+}
+
 .btn-secondary{
   background-color: #fff;
   color: var(--gray-1);
@@ -204,14 +219,6 @@ a {
 .btn-secondary svg{fill: var(--primary);
 }
 
-.btn-primary {
-  background: var(--primary);
-  color: white;
-}
-
-.btn-primary svg {
-  fill: white;
-}
 
 .btn-square {
   width: 4.4rem;
@@ -226,6 +233,8 @@ a {
   border-radius: 50%;
   width: 4.8rem;
   height: 4.8rem;
+  display: flex;
+  align-items: center;
 }
 .btn-circle--lg {
   width: 6rem;
@@ -255,6 +264,11 @@ a {
 
 .mb-10{
   margin-bottom: 1rem;
+}
+
+button{
+  outline: none;
+  border: 0;
 }
 
 .fw-600{
