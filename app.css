@@ -453,7 +453,7 @@ section.brand {
 
 .service .list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 3.5rem;
 }
 
@@ -725,23 +725,23 @@ footer .bottom{
 }
 .footer-form button{
   color: #fff;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 .footer-form button{
   flex-shrink: 0;
+
 }
 
 
 .footer-socials{
   display: flex;
   gap: 2rem;
-
 }
 
 
 .footer-socials i{
-  font-size: 24px;
+  font-size: 2.4rem;
   color: var(--gray-3);
 }
 
@@ -776,16 +776,19 @@ width: 80%;
     padding: 3rem 0 ;
   }
 
+  footer .top{
+    align-items: center;
+   }
   .footer-socials i{
     font-size: 2.4rem;
+     
   }
  
 .booking .content,.how .content,.trip-plan .content ,.easy .content{
     flex-direction: column;  
     gap:4rem ;
   }
-
-  .service .list,.feature .list{
+ .feature .list{
     grid-template-columns: 1fr;
     gap:2rem
   }
@@ -793,9 +796,11 @@ width: 80%;
   footer .top {
     flex-direction: column;
     gap: 4rem;
+    width: 60%;
+    margin: 0 auto;
   }
   footer .right{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
   }
   
@@ -843,6 +848,14 @@ width: 80%;
   }
 }
 
+
+
+@media screen and (max-width:425px){
+  footer .right{
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+  }
+}
 
 
 /* 
