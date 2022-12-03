@@ -251,6 +251,7 @@ section.brand {
   display: flex;
   flex-direction: column;
   gap: 2.2rem;
+  padding-bottom: 2rem;
 }
 .list-item {
   display: flex;
