@@ -1,4 +1,4 @@
-  
+ 
 /* header */
 header nav {
   display: flex;
@@ -185,6 +185,7 @@ section.brand {
 }
 .card-icon {
   margin-bottom: 1.6rem;
+  
 }
 .card-text {
   font-size: 1.7rem;
@@ -751,7 +752,18 @@ footer {
 } 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1000px){
+  .content .left, .content .right{
+    width: 100%;
+    max-width: 100%;
+    
+  }
+
+  
+.trip-plan .header{
+width: 80%; 
+}
+
   html{
     font-size: 30.5%;
   }
@@ -789,19 +801,18 @@ footer {
 
   .trip .card{
     flex-shrink: 0;
-    width: 75%;
+    width: 45%;
     align-items:left;
     padding: 5rem 2.5rem;
   }
+  .easy .content{
+    flex-direction: column-reverse;
+  }
   .easy .card{
     flex-shrink: 0;
-    width: 60%;
+    width: 35%;
     padding: 5rem 2.5rem;
-  }
-  .service .card{
-    width:60%;
-    margin: 0 auto;
-  }
+  } 
   .how .left{
     width: auto;
     height: auto;
@@ -833,4 +844,7 @@ footer {
 
 
 
- 
+/* 
+.content {
+  border: 1px solid red;
+} */
